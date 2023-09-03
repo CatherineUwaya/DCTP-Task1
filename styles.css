@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    background-color: cornsilk;
+    padding: 0px 20px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    align-content: center;
+}
+
+table{
+    display: grid;
+    grid-template-columns: 20px 20px;
+    text-align: justify;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: solid rgba(128, 128, 128, 0.568) 2px;
+    padding: 10px 30px;
+}
+
+@media 
